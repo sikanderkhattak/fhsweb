@@ -19,7 +19,7 @@ $amanagement = $mcourses = 'active';
   <div class="content-wrapper">
     <!-- Main content -->
     <section class="content">
-      <div class="row">
+      <div class="row">      
         <div class="col-12">
 
           <div class="card">
@@ -28,7 +28,7 @@ $amanagement = $mcourses = 'active';
               <a type="button" href="{{url('blogs/create')}}" class="btn btn-sm btn-primary float-right">Add New</a>
             </div>
             <!-- /.card-header -->
-            <div class="card-body">
+            <div class="card-body">   
             @if (Session::has('error'))
                 <div class="alert alert-danger alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
