@@ -23,6 +23,7 @@ $amanagement = $mcourses = 'active';
         <div class="col-12">
 
           <div class="card">
+            
             <div class="card-header">
               <h2 class="card-title">List of Blogs</h2>
               <a type="button" href="{{url('blogs/create')}}" class="btn btn-sm btn-primary float-right">Add New</a>
